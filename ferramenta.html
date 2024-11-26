@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ferramentas de Produtividade</title>
+    <link rel="stylesheet" href="./ferramenta.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Ferramentas de Produtividade</h1>
+      <div class="logo">
+        <img src="img/logo-code.jpeg" alt="" />
+      </div>
+    </header>
+    <main>
+      <section id="comunicacao">
+        <h2>Comunicação</h2>
+        <button class="btn-toggle" onclick="mostrarInfo('comunicacao')">
+          Ver Ferramentas
+        </button>
+        <div class="info oculto" id="info-comunicacao">
+          <ul>
+            <li>
+              <strong>Slack:</strong> Plataforma de mensagens e integração.
+            </li>
+            <li><strong>Microsoft Teams:</strong> Chat e videochamadas.</li>
+            <li>
+              <strong>ClickUp:</strong> Gerenciamento de projetos com chat
+              integrado.
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section id="gestao-tempo">
+        <h2>Gestão de Tempo</h2>
+        <button class="btn-toggle" onclick="mostrarInfo('gestao-tempo')">
+          Ver Ferramentas
+        </button>
+        <div class="info oculto" id="info-gestao-tempo">
+          <ul>
+            <li><strong>Google Calendar:</strong> Gerenciamento de agendas.</li>
+            <li>
+              <strong>Pomodoro:</strong> Técnica para foco e produtividade.
+            </li>
+            <li><strong>Calendly:</strong> Agendamento simplificado.</li>
+          </ul>
+        </div>
+      </section>
+      <section id="organizacao">
+        <h2>Organização de Tarefas</h2>
+        <button class="btn-toggle" onclick="mostrarInfo('organizacao')">
+          Ver Ferramentas
+        </button>
+        <div class="info oculto" id="info-organizacao">
+          <ul>
+            <li>
+              <strong>Todoist:</strong> Listas e organização por prioridades.
+            </li>
+            <li><strong>Trello:</strong> Gestão visual com cartões.</li>
+            <li><strong>Notion:</strong> Notas e tarefas personalizáveis.</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <script src="ext.js"></script>
+  </body>
+  <script src="./ferramenta.js"></script>
+</html>
